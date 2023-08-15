@@ -57,4 +57,5 @@ dependencies {
     implementation project(':bitcoincashkit')
     implementation project(':litecoinkit')
     implementation project(':ecashkit')
+    implementation project(':hodler')
 }
