@@ -18,7 +18,7 @@ Add the following dependency to module `build.gradle` file:
 
 ```
 dependencies {
-    implementation 'com.github.horizontalsystems.bitcoin-kit-android:bitcoincore:${version}'
+    implementation 'com.github.toEther.bitcoin-kit-android:bitcoincore:${version}'
 }
 ```
 
