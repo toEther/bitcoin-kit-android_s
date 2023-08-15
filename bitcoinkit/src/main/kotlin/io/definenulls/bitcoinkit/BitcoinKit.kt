@@ -18,8 +18,8 @@ import io.definenulls.bitcoincore.utils.PaymentAddressParser
 import io.definenulls.bitcoincore.utils.SegwitAddressConverter
 import io.definenulls.bitcoinkit.BitcoinKit.Listener
 import io.definenulls.bitcoinkit.BitcoinKit.NetworkType
-import io.horizontalsystems.hdwalletkit.*
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hdwalletkit.*
+import io.definenulls.hdwalletkit.HDWallet.Purpose
 import io.definenulls.hodler.HodlerPlugin
 
 /**

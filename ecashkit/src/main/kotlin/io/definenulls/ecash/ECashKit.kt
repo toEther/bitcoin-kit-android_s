@@ -26,9 +26,9 @@ import io.definenulls.bitcoincore.storage.Storage
 import io.definenulls.bitcoincore.utils.Base58AddressConverter
 import io.definenulls.bitcoincore.utils.CashAddressConverter
 import io.definenulls.bitcoincore.utils.PaymentAddressParser
-import io.horizontalsystems.hdwalletkit.HDExtendedKey
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.hdwalletkit.HDExtendedKey
+import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hdwalletkit.Mnemonic
 
 class ECashKit : AbstractKit {
     enum class NetworkType {

@@ -6,7 +6,7 @@ import io.definenulls.bitcoincore.crypto.Bech32Segwit
 import io.definenulls.bitcoincore.exceptions.AddressFormatException
 import io.definenulls.bitcoincore.models.*
 import io.definenulls.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.ECKey
+import io.definenulls.hdwalletkit.ECKey
 
 abstract class Bech32AddressConverter(var hrp: String) : IAddressConverter
 

@@ -5,7 +5,7 @@ import io.definenulls.bitcoincore.models.Transaction
 import io.definenulls.bitcoincore.models.TransactionOutput
 import io.definenulls.bitcoincore.serializers.TransactionSerializer
 import io.definenulls.bitcoincore.storage.InputToSign
-import io.horizontalsystems.hdwalletkit.Utils
+import io.definenulls.hdwalletkit.Utils
 
 class SchnorrInputSigner(
     private val hdWallet: IPrivateWallet

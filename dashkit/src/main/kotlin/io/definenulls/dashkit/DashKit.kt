@@ -40,9 +40,9 @@ import io.definenulls.dashkit.storage.DashStorage
 import io.definenulls.dashkit.tasks.PeerTaskFactory
 import io.definenulls.dashkit.validators.DarkGravityWaveTestnetValidator
 import io.definenulls.dashkit.validators.DarkGravityWaveValidator
-import io.horizontalsystems.hdwalletkit.HDExtendedKey
-import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
-import io.horizontalsystems.hdwalletkit.Mnemonic
+import io.definenulls.hdwalletkit.HDExtendedKey
+import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.definenulls.hdwalletkit.Mnemonic
 import io.reactivex.Single
 
 class DashKit : AbstractKit, IInstantTransactionDelegate, BitcoinCore.Listener {

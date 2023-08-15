@@ -7,7 +7,7 @@ import io.definenulls.bitcoincore.network.peer.Peer
 import io.definenulls.bitcoincore.storage.*
 import io.definenulls.bitcoincore.transactions.builder.MutableTransaction
 import io.definenulls.bitcoincore.transactions.scripts.ScriptType
-import io.horizontalsystems.hdwalletkit.HDKey
+import io.definenulls.hdwalletkit.HDKey
 
 interface IStorage {
 

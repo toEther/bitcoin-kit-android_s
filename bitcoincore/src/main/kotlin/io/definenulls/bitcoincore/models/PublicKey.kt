@@ -6,7 +6,7 @@ import androidx.room.Index
 import io.definenulls.bitcoincore.core.IStorage
 import io.definenulls.bitcoincore.transactions.scripts.OpCodes
 import io.definenulls.bitcoincore.utils.Utils
-import io.horizontalsystems.hdwalletkit.ECKey
+import io.definenulls.hdwalletkit.ECKey
 
 @Entity(primaryKeys = ["path"],
         indices = [
