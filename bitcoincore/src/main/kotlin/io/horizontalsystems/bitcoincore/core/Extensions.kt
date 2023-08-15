@@ -1,7 +1,7 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.storage.FullTransaction
-import io.horizontalsystems.bitcoincore.transactions.scripts.ScriptType
+import io.definenulls.bitcoincore.storage.FullTransaction
+import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import io.horizontalsystems.hdwalletkit.HDWallet
 import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
 import java.util.*

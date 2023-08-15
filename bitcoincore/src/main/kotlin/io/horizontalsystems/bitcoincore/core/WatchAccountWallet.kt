@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.core
+package io.definenulls.bitcoincore.core
 
-import io.horizontalsystems.bitcoincore.models.PublicKey
+import io.definenulls.bitcoincore.models.PublicKey
 import io.horizontalsystems.hdwalletkit.HDWallet
 import io.horizontalsystems.hdwalletkit.HDWalletAccountWatch
 

@@ -1,6 +1,6 @@
-package io.horizontalsystems.bitcoincore.transactions.builder
+package io.definenulls.bitcoincore.transactions.builder
 
-import io.horizontalsystems.bitcoincore.crypto.schnorr.Schnorr
+import io.definenulls.bitcoincore.crypto.schnorr.Schnorr
 import io.horizontalsystems.hdwalletkit.ECKey
 
 fun ECKey.signSchnorr(input: ByteArray, auxRand: ByteArray = ByteArray(32)): ByteArray {
