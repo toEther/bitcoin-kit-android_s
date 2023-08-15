@@ -1,4 +1,4 @@
-package io.horizontalsystems
+package io.definenulls
 
 import io.definenulls.bitcoincore.extensions.hexToByteArray
 import io.definenulls.bitcoincore.extensions.toReversedByteArray

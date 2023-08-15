@@ -402,7 +402,7 @@ repositories {
 Add the following dependency to your build.gradle file:
 ```
 dependencies {
-    implementation 'com.github.toEther:bitcoin-kit-android:master-SNAPSHOT'
+    implementation 'com.github.horizontalsystems:bitcoin-kit-android:master-SNAPSHOT'
 }
 ```
 
