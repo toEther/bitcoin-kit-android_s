@@ -2,8 +2,8 @@ package io.definenulls.bitcoincore.core
 
 import io.definenulls.bitcoincore.storage.FullTransaction
 import io.definenulls.bitcoincore.transactions.scripts.ScriptType
-import io.definenulls.hdwalletkit.HDWallet
-import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.horizontalsystems.hdwalletkit.HDWallet
+import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
 import java.util.*
 
 fun List<FullTransaction>.inTopologicalOrder(): List<FullTransaction> {

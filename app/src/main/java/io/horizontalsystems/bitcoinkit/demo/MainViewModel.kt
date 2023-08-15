@@ -9,7 +9,7 @@ import io.definenulls.bitcoincore.exceptions.AddressFormatException
 import io.definenulls.bitcoincore.managers.SendValueErrors
 import io.definenulls.bitcoincore.models.*
 import io.definenulls.bitcoinkit.BitcoinKit
-import io.definenulls.hdwalletkit.HDWallet.Purpose
+import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
 import io.definenulls.hodler.HodlerData
 import io.definenulls.hodler.HodlerPlugin
 import io.definenulls.hodler.LockTimeInterval

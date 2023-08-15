@@ -1,9 +1,9 @@
 package io.definenulls.bitcoincore.core
 
 import io.definenulls.bitcoincore.models.PublicKey
-import io.definenulls.hdwalletkit.HDKey
-import io.definenulls.hdwalletkit.HDWallet.*
-import io.definenulls.hdwalletkit.HDWalletAccount
+import io.horizontalsystems.hdwalletkit.HDKey
+import io.horizontalsystems.hdwalletkit.HDWallet.*
+import io.horizontalsystems.hdwalletkit.HDWalletAccount
 
 class AccountWallet(private val hdWallet: HDWalletAccount, override val gapLimit: Int): IPrivateWallet, IAccountWallet {
 

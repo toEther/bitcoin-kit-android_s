@@ -1,8 +1,8 @@
 package io.definenulls.bitcoincore.core
 
 import io.definenulls.bitcoincore.models.PublicKey
-import io.definenulls.hdwalletkit.HDKey
-import io.definenulls.hdwalletkit.HDWallet
+import io.horizontalsystems.hdwalletkit.HDKey
+import io.horizontalsystems.hdwalletkit.HDWallet
 import java.lang.Exception
 
 class Wallet(private val hdWallet: HDWallet, val gapLimit: Int): IPrivateWallet {

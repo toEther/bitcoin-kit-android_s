@@ -12,8 +12,8 @@ import io.definenulls.bitcoincore.network.Network
 import io.definenulls.bitcoincore.storage.InputToSign
 import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import io.definenulls.bitcoincore.transactions.scripts.Sighash
-import io.definenulls.hdwalletkit.HDKey
-import io.definenulls.hdwalletkit.HDWallet
+import io.horizontalsystems.hdwalletkit.HDKey
+import io.horizontalsystems.hdwalletkit.HDWallet
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.assertThrows
 import org.mockito.Mockito.anyBoolean

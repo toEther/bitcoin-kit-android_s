@@ -21,11 +21,11 @@ import io.definenulls.bitcoincore.transactions.extractors.TransactionMetadataExt
 import io.definenulls.bitcoincore.transactions.extractors.TransactionOutputProvider
 import io.definenulls.bitcoincore.transactions.scripts.ScriptType
 import io.definenulls.bitcoincore.utils.*
-import io.definenulls.hdwalletkit.HDExtendedKey
-import io.definenulls.hdwalletkit.HDWallet
-import io.definenulls.hdwalletkit.HDWallet.Purpose
-import io.definenulls.hdwalletkit.HDWalletAccount
-import io.definenulls.hdwalletkit.HDWalletAccountWatch
+import io.horizontalsystems.hdwalletkit.HDExtendedKey
+import io.horizontalsystems.hdwalletkit.HDWallet
+import io.horizontalsystems.hdwalletkit.HDWallet.Purpose
+import io.horizontalsystems.hdwalletkit.HDWalletAccount
+import io.horizontalsystems.hdwalletkit.HDWalletAccountWatch
 import io.reactivex.Single
 import java.util.*
 import java.util.concurrent.Executor
